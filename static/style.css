@@ -273,10 +273,6 @@ i.menu-mobile {
     transform: translate3d(0, 0, 0);
 }
 
-
-
-
-
 @media (max-width: 1860px) {
     .carousel-control-prev {
         margin-left: 0;
@@ -289,4 +285,15 @@ i.menu-mobile {
     [data-anime="rigth"] {
         transform: translate3d(-100%, 0, 0);
     }
+}
+
+#btn-enviar-loader {
+    display: none;
+}
+
+#alerta {
+    position: fixed;
+    z-index: 10;
+    top: 30px;
+    right: 30px;
 }
