@@ -171,3 +171,21 @@ i.menu-mobile {
         margin-left: 0px;
     }
 }
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    width: 5px;
+    box-shadow: inset 0 0 .3rem #00000059;
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #212529;
+}
+
+.section-bg{
+    background-color: #dbdbdb;
+}
